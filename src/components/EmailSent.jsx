@@ -12,7 +12,7 @@ const EmailSent = () => {
                     <p>We have sent a verification code to <br />annadavid@gmail.com</p>
                     <button>Go to Email App  &nbsp; &#8594;</button>
                     <h6 id='code'>Resend verification code </h6>
-                    <p>Did you recieve the email? Check your spam filter <br /> or <em>try another email address</em></p>
+                    <p>Did you recieve the email? Check your spam filter <br /> or <em id='address'>try another email address</em></p>
                 </div>
             </div>
             <div id='displayCon'>

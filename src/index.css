@@ -19,19 +19,19 @@ Body {
   margin-top: 15%;
 }
 
+#Sms {
+  height: 40px;
+  width:40px ;
+}
+
 h1 {
-  font-size: 35px;
+  font-size: 30px;
   font-family: 'Open Sans';
   color: #333333;
   margin: 10px 0;
 }
 
 
-h6{
-  font-size: 13px;
-  font-family: 'Open Sans';
-  color: #333333;
-}
 button {
   border: none;
   border-radius: 8px;
@@ -41,18 +41,26 @@ button {
   font-size: 12px;
   padding: 10px 14px;
   margin: 25px 0;
+  cursor: pointer;
+}
+
+button:hover {
+  color: #714DD9;
+  border: 1px solid #714DD9;
+  background: #FFF;
 }
 
 #code {
-  font-size: 13px;
+  font-size: 12px;
   font-weight: 400;
   font-family: 'Open Sans';
   color: #714DD9;
-  margin: 2px 0 50px;
+  margin: -5px 0 50px;
+  cursor: pointer;
 }
 
 p {
-  font-size: 13px;
+  font-size: 12px;
   font-weight: 400;
   line-height: 15px;
   font-family: 'Open Sans';
@@ -64,6 +72,10 @@ em {
   color: #714DD9;
   font-style: normal;
   font-family: 'Open Sans';
+}
+
+#address {
+  cursor: pointer;
 }
 
 #displayCon {
@@ -78,7 +90,12 @@ em {
   max-height: 670px;
 }
 
-
+@media (max-width: 1024px) { 
+  h1 {
+    
+  font-size: 25px;
+  }
+}
 
 
 
@@ -89,7 +106,7 @@ em {
 
   #econtainer {
     position: fixed;
-    top: 45%;
+    top: 35%;
     left: 50%;
     transform: translate(-50%, -50%);
   }

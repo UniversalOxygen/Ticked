@@ -1,11 +1,11 @@
 
 import './App.css';
-import EmailCheck from './components/EmailCheck/EmailCheck';
+import CheckMail from './components/CheckMail/CheckMail';
 
 function App() {
   return (
     <div className="App">
-      <EmailCheck/>
+      <CheckMail/>
     </div>
   );
 }

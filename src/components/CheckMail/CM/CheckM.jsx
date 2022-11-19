@@ -1,8 +1,8 @@
 import React from 'react'
-import './EmailCheck.css'
-import Sms from './images/sms.png'
+import './CheckM.css'
+import Sms from '../images/sms.png'
 
-const EmailCheck = () => {
+const CheckM = () => {
   return (
         <section id='EmailCon'>
             <div id='Emaildetails'>
@@ -23,4 +23,4 @@ const EmailCheck = () => {
   )
 }
 
-export default EmailCheck
+export default CheckM

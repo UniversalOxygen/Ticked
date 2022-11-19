@@ -16,7 +16,10 @@ Body {
 }
 
 #econtainer {
-  margin-top: 15%;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%)
 }
 
 #Sms {
@@ -66,6 +69,7 @@ p {
   font-family: 'Open Sans';
   color: #333333;
   font-weight: 400;
+  white-space: nowrap;
 }
 
 em {
@@ -80,6 +84,7 @@ em {
 
 #displayCon {
   width: 50%;
+  display: none;
 }
 
 #Pimg {
@@ -106,7 +111,7 @@ em {
 
   #econtainer {
     position: fixed;
-    top: 35%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
   }

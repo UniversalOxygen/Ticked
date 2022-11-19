@@ -1,8 +1,8 @@
 import React from 'react'
-import Sms from '../components/images/sms.png'
-import Pimg from '../components/images/passwordreset-img.png'
+import './EmailCheck.css'
+import Sms from './images/sms.png'
 
-const EmailSent = () => {
+const EmailCheck = () => {
   return (
         <section id='EmailCon'>
             <div id='Emaildetails'>
@@ -23,4 +23,4 @@ const EmailSent = () => {
   )
 }
 
-export default EmailSent
+export default EmailCheck

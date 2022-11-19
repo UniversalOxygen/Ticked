@@ -1,11 +1,11 @@
 
 import './App.css';
-import EmailSent from './components/EmailSent';
+import EmailCheck from './components/EmailCheck/EmailCheck';
 
 function App() {
   return (
     <div className="App">
-      <EmailSent/>
+      <EmailCheck/>
     </div>
   );
 }
